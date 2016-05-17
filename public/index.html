@@ -4,14 +4,28 @@
     <meta charset="utf-8">
     <title>Andy Fry</title>
   </head>
-  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="./css/style.css">
   <body>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <div class="container-fluid">
 
       <div class="row" id="contact">
-        <div class="col-md-3 col-md-offset-1 text-center bg-info">
-          <h4>Fixed contact area</h4>
+        <div class="dropdown col-md-offset-1">
+
+          <button class="btn btn-default dropdown-toggle" type="button" id="dropdown-btn" data-toggle="dropdown" aria-haspopup-"true" aria-expanded="true">
+            Fixed contact menu!
+            <span class="caret"></span>
+          </button>
+
+          <ul class="dropdown-menu" aria-labelledby="dropdown-btn">
+            <li><a href="#">Github</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Email</a></li>
+            <li><a href="#">Something else</a></li>
+          </ul>
+
         </div>
       </div>
 
