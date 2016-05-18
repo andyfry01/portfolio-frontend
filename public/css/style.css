@@ -61,15 +61,18 @@ img {
 }
 
 #projects {
-  height: 100vh;
+  min-height: 100vh;
+  max-height: 100%;
 }
 
 #skills {
-  height: 100vh;
+  min-height: 100vh;
+  max-height: 100%;
 }
 
 #about {
-  height: 100vh;
+  min-height: 100vh;
+  max-height: 100%;
 }
 
 .info {
