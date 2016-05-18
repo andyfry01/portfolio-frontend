@@ -50,7 +50,7 @@ img {
 }
 
 #navigation {
-  background: rgba(225,225,225,0.25);
+  background: rgba(0,0,0,1);
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
