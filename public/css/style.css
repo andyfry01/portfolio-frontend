@@ -7,7 +7,7 @@ body {
   background-size: cover;
 }
 
-header {
+h1, h2 {
   font-family: 'Orbitron', bold;
 }
 
@@ -43,8 +43,11 @@ img {
 }
 
 #title {
-  font-size: 60px;
-  font-family: 'Orbitron', bold;
+  font-size: 70px;
+}
+
+#subtitle {
+  font-size: 40px;
 }
 
 
