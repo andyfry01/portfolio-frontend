@@ -12,10 +12,30 @@ img {
   height: 100%;
 }
 
+#header {
+  height: 100vh;
+  margin-top: 100px;
+  width: 100%;
+}
+
 .card {
   background: rgba(225,225,225,0.15);
   border-radius: 10px;
   color: white;
+}
+
+.dickpenis {
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-family: 'Mandali', bold;
+  font-size: 20px;
+  margin-right: 10px;
+  width: 100px;
+}
+
+#navigation {
+  background: rgba(225,225,225,0.15);
 }
 
 #title {
@@ -23,7 +43,21 @@ img {
   font-family: 'Orbitron', bold;
 }
 
+
 #about-me {
+  margin-top: 20px;
   font-size: 30px;
   font-family: 'Mandali', bold;
+}
+
+#projects {
+  height: 50vh;
+}
+
+#skills {
+  height: 50vh;
+}
+
+#about {
+  height: 50vh
 }
