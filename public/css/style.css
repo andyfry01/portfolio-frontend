@@ -28,7 +28,7 @@ img {
 }
 
 .card {
-  background: rgba(225,225,225,0.15);
+  background: rgba(225,225,225,0.25);
   border-radius: 10px;
   color: white;
 }
@@ -57,10 +57,10 @@ img {
 
 
 .footer-section {
+  padding-top: 115px;
   min-height: 50vh;
   max-height: 100%;
   font-family: 'Mandali', bold;
-
 }
 
 .content-section {

@@ -6,6 +6,7 @@
   <title>Andy Fry</title>
 </head>
 <link href='https://fonts.googleapis.com/css?family=Press+Start+2P|Orbitron|Mandali' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 <link rel="stylesheet" href="./css/style.css">
 <link rel="icon" href="./img/favicon.png" type="image/x-icon" />
@@ -25,7 +26,6 @@
     </nav>
 
     <div id="header">
-
         <div class="col-xs-8 text-center card">
           <h1 id="title">Andy Fry</h1>
           <h2 id="subtitle">Frontend Web Developer</h2>
@@ -33,10 +33,13 @@
     </div>
 
     <div class="row content-section" id="projects">
+      <div class="col-md-4 col-md-offset-4 text-center card">
+        <h1>A few things I've built:</h1>
+      </div>
 
       <div class="col-md-4 col-md-offset-1 text-center card">
-        <h3 class="info">GeoTube<h3>
-        <img src='./img/geotube.png'>
+        <a target="_blank" href="http://geotube.herokuapp.com"><h3 class="info">GeoTube<h3></a>
+        <a target="_blank" href="http://geotube.herokuapp.com"><img src='./img/geotube.png'></a>
 
         <a class="btn standard-button" data-toggle="collapse" href="#geotube-info" aria-expanded="false" aria-controls="geotube-info">
           Project info
@@ -58,8 +61,8 @@
       </div>
 
       <div class="col-md-4 col-md-offset-2 text-center card">
-        <h3 class="info">Vybez<h3>
-        <img src='./img/vybez.png'>
+        <a target="_blank" href="https://vybez.herokuapp.com"><h3 class="info">Vybez<h3></a>
+        <a target="_blank" href="https://vybez.herokuapp.com"><img src='./img/vybez.png'></a>
 
         <a class="btn standard-button" data-toggle="collapse" href="#vybez-info" aria-expanded="false" aria-controls="vybez-info">
           Project info
@@ -84,36 +87,42 @@
     <div class="row content-section" id="skills">
 
       <div class="col-md-2 col-md-offset-1 text-center card">
-        <h5>Vanilla JS, ES6</h5>
-        <h5>HTML5</h5>
-        <h5>Express</h5>
+        <h5>Vanilla JS, ES6</h5> <i class="devicon-javascript-plain"></i>
+        <h5>HTML5</h5> <i class="devicon-html5-plain"></i>
+        <h5>Express</h5> <i class="devicon-nodejs-plain"></i>
+        <h5>Heroku deployment</h5> <i class="devicon-heroku-original"></i>
       </div>
 
       <div class="col-md-2 col-md-offset-2 text-center card">
-        <h5>React.js</h5>
-        <h5>CSS3</h5>
-        <h5>MongoDB</h5>
+        <h5>React.js</h5> <i class="devicon-react-original"></i>
+        <h5>CSS3</h5> <i class="devicon-css3-plain"></i>
+        <h5>MongoDB</h5> <i class="devicon-mongodb-plain"></i>
+        <h5>PostgreSQL</h5> <i class="devicon-postgresql-plain"></i>
+        <h5>Git and Github</h5> <i class="devicon-git-plain"></i>
       </div>
 
       <div class="col-md-2 col-md-offset-2 text-center card">
-        <h5>Node.js</h5>
-        <h5>jQuery</h5>
-        <h5>Ruby on Rails</h5>
+        <h5>Node.js</h5> <i class="devicon-nodejs-plain"></i>
+        <h5>jQuery</h5> <i class="devicon-jquery-plain"></i>
+        <h5>Ruby on Rails</h5> <i class="devicon-rails-plain"></i>
+        <h5>Bootstrap</h5> <i class="devicon-bootstrap-plain"></i>
+        <h5>Ubuntu</h5> <i class="devicon-ubuntu-plain"></i>
+
       </div>
 
     </div>
 
-    <div class="row content-section" id="about">
+    <div class="row footer-section" id="about">
       <div class="col-md-8 col-md-offset-2 text-center card">
-        <h1>About</h1>
+        <h1>About Me</h1>
         <h3>I'm a big lover of the world, and my favorite thing to do is get out and explore it! I spent some time after graduating from college living in Hamburg, Germany as a Fulbright scholar, I walked the 500-mile Camino de Santiago in 2011, and rode my bike to Nova Scotia from my front door in Brooklyn in 2014.</h3>
         <h3>New York is the perfect place to indulge a love of the world, and making websites and apps – themselves little windows out onto the world – is a great way to indulge that love in my work life!</h3>
       </div>
     </div>
 
-    <div class="row card footer-section" id="contact">
-      <h1>Get in touch!</h1>
-      <div>
+    <div class="row footer-section" id="contact">
+      <div class="col-md-8 col-md-offset-2 text-center card">
+        <h1>Get in touch!</h1>
         <a href="mailto:andyfry01@gmail.com" class="standard-button">Email</a>
         <a target="_blank" href="https://www.github.com/andyfry01" class="standard-button">Github</a>
         <a target="_blank" href="https://www.linkedin.com/in/andyfry01" class="standard-button">LinkedIn</a>
