@@ -21,8 +21,10 @@ img {
 
 #header {
   height: 100vh;
-  margin-top: 100px;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card {
@@ -54,23 +56,15 @@ img {
 }
 
 
-#about-me {
-  margin-top: 20px;
-  font-size: 30px;
+.footer-section {
+  min-height: 50vh;
+  max-height: 100%;
   font-family: 'Mandali', bold;
+
 }
 
-#projects {
-  min-height: 100vh;
-  max-height: 100%;
-}
-
-#skills {
-  min-height: 100vh;
-  max-height: 100%;
-}
-
-#about {
+.content-section {
+  padding-top: 115px;
   min-height: 100vh;
   max-height: 100%;
 }
