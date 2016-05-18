@@ -14,14 +14,17 @@
 <body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js"></script>
+  <script src="./js/scroll.js">
+
+  </script>
   <div class="container-fluid">
 
     <nav class="navbar navbar-default navbar-fixed-top" id="navigation">
       <div class="container">
-        <a href="#projects" class="btn navbar-btn page-scroll navbar-left standard-button">Projects</a>
-        <a href="#skills" class="btn navbar-btn page-scroll navbar-left standard-button">Skills</a>
-        <a href="#about" class="btn navbar-btn page-scroll navbar-left standard-button">About</a>
-        <a href="#contact" class="btn navbar-btn page-scroll navbar-left standard-button">Contact</a>
+        <a href="#projects" class="scroll btn navbar-btn navbar-left standard-button">Projects</a>
+        <a href="#skill-section" class="scroll btn navbar-btn navbar-left standard-button">Skills</a>
+        <a href="#about" class="scroll btn navbar-btn navbar-left standard-button">About</a>
+        <a href="#contact" class="scroll btn navbar-btn navbar-left standard-button">Contact</a>
       </div>
     </nav>
 
@@ -84,29 +87,29 @@
 
     </div>
 
-    <div class="row content-section" id="skills">
+    <div class="row content-section" id="skill-section">
 
-      <div class="col-md-2 col-md-offset-1 text-center card">
-        <h5>Vanilla JS, ES6</h5> <i class="devicon-javascript-plain"></i>
-        <h5>HTML5</h5> <i class="devicon-html5-plain"></i>
-        <h5>Express</h5> <i class="devicon-nodejs-plain"></i>
-        <h5>Heroku deployment</h5> <i class="devicon-heroku-original"></i>
+      <div class="col-md-4 col-md-offset-4 text-center card">
+        <h1>My Skillset</h1>
       </div>
 
-      <div class="col-md-2 col-md-offset-2 text-center card">
-        <h5>React.js</h5> <i class="devicon-react-original"></i>
-        <h5>CSS3</h5> <i class="devicon-css3-plain"></i>
-        <h5>MongoDB</h5> <i class="devicon-mongodb-plain"></i>
-        <h5>PostgreSQL</h5> <i class="devicon-postgresql-plain"></i>
-        <h5>Git and Github</h5> <i class="devicon-git-plain"></i>
-      </div>
+      <div id="skills">
+        <div class="skill"><span class="skill-span">HTML5</span> <p><i class="icon devicon-html5-plain"></i></p></div>
+        <div class="skill"><span class="skill-span">CSS3</span> <p><i class="icon devicon-css3-plain"></i></p></div>
+        <div class="skill"><span class="skill-span">Express</span> <p><i class="icon devicon-nodejs-plain"></i></p></div>
+        <div class="skill"><span class="skill-span">Vanilla JS, ES6</span> <p><i class="icon devicon-javascript-plain"></i></p></div>
 
-      <div class="col-md-2 col-md-offset-2 text-center card">
-        <h5>Node.js</h5> <i class="devicon-nodejs-plain"></i>
-        <h5>jQuery</h5> <i class="devicon-jquery-plain"></i>
-        <h5>Ruby on Rails</h5> <i class="devicon-rails-plain"></i>
-        <h5>Bootstrap</h5> <i class="devicon-bootstrap-plain"></i>
-        <h5>Ubuntu</h5> <i class="devicon-ubuntu-plain"></i>
+        <div class="skill"><span class="skill-span">React.js</span> <p><i class="icon devicon-react-original"></i></p></div>
+        <div class="skill"><span class="skill-span">Node.js</span> <p><i class="icon devicon-nodejs-plain"></i></p></div>
+        <div class="skill"><span class="skill-span">MongoDB</span> <p><i class="icon devicon-mongodb-plain"></i></p></div>
+        <div class="skill"><span class="skill-span">PostgreSQL</span> <p><i class="icon devicon-postgresql-plain"></i></p></div>
+        <div class="skill"><span class="skill-span">Git and Github</span> <p><i class="icon devicon-git-plain"></i></p></div>
+
+        <div class="skill"><span class="skill-span">jQuery</span> <p><i class="icon devicon-jquery-plain"></i></p></div>
+        <div class="skill"><span class="skill-span">Ruby on Rails</span> <p><i class="icon devicon-rails-plain"></i></p></div>
+        <div class="skill"><span class="skill-span">Bootstrap</span> <p><i class="icon devicon-bootstrap-plain"></i></p></div>
+        <div class="skill"><span class="skill-span">Ubuntu</span> <p><i class="icon devicon-ubuntu-plain"></i></p></div>
+        <div class="skill"><span class="skill-span">Heroku deployment</span> <p><i class="icon devicon-heroku-original"></i></p></div>
 
       </div>
 

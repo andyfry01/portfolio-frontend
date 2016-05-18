@@ -12,6 +12,12 @@ h1, h2 {
   color: white;
 }
 
+p {
+  font-size: 20px;
+  font-family: 'Mandali', bold;
+  color: white;
+}
+
 img {
   width: 100%;
   height: 100%;
@@ -44,7 +50,10 @@ img {
 }
 
 #navigation {
-  background: rgba(225,225,225,0.15);
+  background: rgba(225,225,225,0.25);
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s;
 }
 
 #title {
@@ -55,6 +64,42 @@ img {
   font-size: 40px;
 }
 
+#skills {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-shrink: 3;
+  width: 90vw;
+}
+
+.skill {
+  border-radius: 5px;
+  text-align: center;
+  max-height: 130px;
+  max-width: 100%;
+  margin: 20px;
+  padding: 10px;
+  background: rgba(225,225,225,0.25);
+}
+
+.skill-span {
+  font-size: 30px;
+  font-family: 'Mandali', bold;
+  color: white;
+}
+
+.icon {
+  font-size: 60px;
+  color: white;
+}
+
+.content-section {
+  padding-top: 115px;
+  min-height: 100vh;
+  max-height: 100%;
+}
 
 .footer-section {
   padding-top: 115px;
@@ -63,11 +108,6 @@ img {
   font-family: 'Mandali', bold;
 }
 
-.content-section {
-  padding-top: 115px;
-  min-height: 100vh;
-  max-height: 100%;
-}
 
 .info {
   font-size: 30px;
