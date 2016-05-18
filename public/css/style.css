@@ -7,6 +7,10 @@ body {
   background-size: cover;
 }
 
+header {
+  font-family: 'Orbitron', bold;
+}
+
 img {
   width: 100%;
   height: 100%;
@@ -24,7 +28,7 @@ img {
   color: white;
 }
 
-.dickpenis {
+.navigation-button {
   color: white;
   border: 1px solid white;
   border-radius: 5px;
