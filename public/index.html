@@ -11,31 +11,14 @@
 
 <body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js"></script>
   <div class="container-fluid">
-
-    <!-- <div class="row" id="contact">
-      <div class="dropdown col-md-offset-1">
-
-        <button class="btn btn-default dropdown-toggle" type="button" id="dropdown-btn" data-toggle="dropdown" aria-haspopup- "true" aria-expanded="true">
-          Fixed contact menu!
-          <span class="caret"></span>
-        </button>
-
-        <ul class="dropdown-menu" aria-labelledby="dropdown-btn">
-          <li><a target="_blank" href="https://github.com/andyfry01">Github</a></li>
-          <li><a target="_blank" href="https://www.linkedin.com/in/andyfry01">LinkedIn</a></li>
-          <li><a target="_blank" href="mailto:andyfry01@gmail.com">Email</a></li>
-        </ul>
-
-      </div>
-    </div> -->
 
     <nav class="navbar navbar-default navbar-fixed-top" id="navigation">
       <div class="container">
-        <a href="#projects" class="btn navbar-btn page-scroll navbar-left navigation-button">Projects</a>
-        <a href="#skills" class="btn navbar-btn page-scroll navbar-left navigation-button">About</a>
-        <a href="#contact" class="btn navbar-btn page-scroll navbar-left navigation-button">Contact</a>
+        <a href="#projects" class="btn navbar-btn page-scroll navbar-left standard-button">Projects</a>
+        <a href="#skills" class="btn navbar-btn page-scroll navbar-left standard-button">About</a>
+        <a href="#contact" class="btn navbar-btn page-scroll navbar-left standard-button">Contact</a>
       </div>
     </nav>
 
@@ -61,61 +44,68 @@
 
     <div class="row" id="projects">
 
-      <div class="col-md-4 col-md-offset-1 text-center">
+      <div class="col-md-4 col-md-offset-1 text-center card">
+        <h3 class="info">GeoTube<h3>
         <img src='./img/geotube.png'>
+
+        <a class="btn standard-button" data-toggle="collapse" href="#geotube-info" aria-expanded="false" aria-controls="geotube-info">
+          Project info
+        </a>
+
+        <a class="btn standard-button" target="_blank" href="https://github.com/andyfry01/final-project-frontend">
+          Check out on Github
+        </a>
+
+        <div class="collapse" id="geotube-info">
+          <div>
+            <p>GeoTube was my final project at General Assembly, and was built together with <a target = "_blank" href="https://github.com/seanryankeegan">Sean Keegan (link)</a>. Many YouTube videos have geolocation metadata with the coordinates of where they were filmed, and searching YouTube by coordinates instead of by video title makes it easy to discover interesting videos regionally. GeoTube makes it easy to discover and watch these videos, and visualizes the search area! </p>
+          </div>
+        </div>
+
+
       </div>
 
-      <div class="col-md-4 col-md-offset-2 text-center">
+      <div class="col-md-4 col-md-offset-2 text-center card">
+        <h3 class="info">Vybez<h3>
         <img src='./img/vybez.png'>
+
+        <a class="btn standard-button" data-toggle="collapse" href="#vybez-info" aria-expanded="false" aria-controls="vybez-info">
+          Project info
+        </a>
+
+        <a class="btn standard-button" target="_blank" href="https://github.com/andyfry01/project-three-frontend">
+          Check out on Github
+        </a>
+
+        <div class="collapse" id="vybez-info">
+          <div>
+            <p>GeoTube was my final project at General Assembly, and was built together with <a target = "_blank" href="https://github.com/seanryankeegan">Sean Keegan (link)</a>. Many YouTube videos have geolocation metadata with the coordinates of where they were filmed, and searching YouTube by coordinates instead of by video title makes it easy to discover interesting videos regionally. GeoTube makes it easy to discover and watch these videos, and visualizes the search area! </p>
+          </div>
+        </div>
+
       </div>
 
     </div>
 
-    <div class="row" id="skills">
-      <div class="row">
+    <div class="row card" id="skills">
 
-        <div class="col-md-2 col-md-offset-1 text-center bg-info">
-          <h5>Vanilla JS, ES6</h5>
-        </div>
-
-        <div class="col-md-2 col-md-offset-2 text-center bg-info">
-          <h5>React.js</h5>
-        </div>
-
-        <div class="col-md-2 col-md-offset-2 text-center bg-info">
-          <h5>Node.js</h5>
-        </div>
-
+      <div class="col-md-2 col-md-offset-1 text-center bg-info">
+        <h5>Vanilla JS, ES6</h5>
+        <h5>HTML5</h5>
+        <h5>Express</h5>
       </div>
 
-      <div class="row">
-        <div class="col-md-2 col-md-offset-1 text-center bg-info">
-          <h5>HTML5</h5>
-        </div>
-
-        <div class="col-md-2 col-md-offset-2 text-center bg-info">
-          <h5>CSS3</h5>
-        </div>
-
-        <div class="col-md-2 col-md-offset-2 text-center bg-info">
-          <h5>jQuery</h5>
-        </div>
+      <div class="col-md-2 col-md-offset-2 text-center bg-info">
+        <h5>React.js</h5>
+        <h5>CSS3</h5>
+        <h5>MongoDB</h5>
       </div>
 
-      <div class="row">
-        <div class="col-md-2 col-md-offset-1 text-center bg-info">
-          <h5>Express</h5>
-        </div>
-
-        <div class="col-md-2 col-md-offset-2 text-center bg-info">
-          <h5>MongoDB</h5>
-        </div>
-
-        <div class="col-md-2 col-md-offset-2 text-center bg-info">
-          <h5>Ruby on Rails</h5>
-        </div>
+      <div class="col-md-2 col-md-offset-2 text-center bg-info">
+        <h5>Node.js</h5>
+        <h5>jQuery</h5>
+        <h5>Ruby on Rails</h5>
       </div>
-
 
     </div>
 
@@ -125,6 +115,8 @@
         <h3>A heartbreaking work of staggering genius</h3>
       </div>
     </div>
+
+  </div>
 </body>
 
 </html>
