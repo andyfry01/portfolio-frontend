@@ -7,6 +7,10 @@ body {
   background-size: cover;
 }
 
+a:hover{
+  text-decoration: none;
+}
+
 h1, h2 {
   font-family: 'Orbitron', bold;
   color: white;
@@ -34,7 +38,7 @@ img {
 }
 
 .card {
-  background: rgba(225,225,225,0.25);
+  background: rgba(225,225,225,0.35);
   border-radius: 10px;
   color: white;
 }
@@ -74,6 +78,11 @@ img {
   width: 90vw;
 }
 
+#project-area {
+  margin-top: 100px;
+  height: 100%;
+}
+
 .skill {
   border-radius: 5px;
   text-align: center;
@@ -81,7 +90,7 @@ img {
   max-width: 100%;
   margin: 20px;
   padding: 10px;
-  background: rgba(225,225,225,0.25);
+  background: rgba(225,225,225,0.35);
 }
 
 .skill-span {
@@ -107,7 +116,6 @@ img {
   max-height: 100%;
   font-family: 'Mandali', bold;
 }
-
 
 .info {
   font-size: 30px;
