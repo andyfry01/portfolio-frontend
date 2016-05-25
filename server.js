@@ -1,3 +1,4 @@
+require('dotenv').config()
 var express = require('express');
 var PORT = 31415;
 var app = express();

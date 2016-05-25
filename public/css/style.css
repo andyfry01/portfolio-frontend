@@ -78,8 +78,13 @@ img {
   width: 90vw;
 }
 
-#project-area {
+#project-area-one {
   margin-top: 100px;
+  height: 100%;
+}
+
+#project-area-two {
+  margin-top: 30px;
   height: 100%;
 }
 
