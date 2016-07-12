@@ -1,6 +1,6 @@
-/** {
+* {
   box-sizing: border-box;
-}*/
+}
 
 body {
   background: url(../img/4.jpg) no-repeat center center fixed;
@@ -50,8 +50,8 @@ img {
 }
 
 .btn-row {
-  margin-top: 0.75em;
-  margin-bottom: 0.75em;
+  margin-top: 0.9em;
+  margin-bottom: 0.9em;
 }
 
 .standard-button {
@@ -104,7 +104,7 @@ img {
 }
 
 .icon {
-  font-size: 4em;
+  font-size: 6em;
   color: white;
   margin: 0 auto;
 }
