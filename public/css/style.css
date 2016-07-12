@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: url(../img/4.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -16,7 +20,7 @@ h1, h2 {
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 1em;
   font-family: 'Mandali', bold;
   color: white;
   text-align: justify;
@@ -41,7 +45,13 @@ img {
   background: rgba(225,225,225,0.35);
   border-radius: 10px;
   color: white;
-  padding: 5px;
+  padding: 10px;
+  /*min-height: 100%;*/
+}
+
+.btn-row {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
 }
 
 .standard-button {
@@ -51,6 +61,7 @@ img {
   font-family: 'Mandali', bold;
   max-width: 100%;
 }
+
 
 #navigation {
   background: rgba(0,0,0,1);
