@@ -1,0 +1,12 @@
+#target {
+  height: auto;
+  width: 100vw;
+  word-wrap: break-word;
+  transform: rotate(45deg);
+}
+#targetTwo {
+  height: auto;
+  width: 100vw;
+  word-wrap: break-word;
+  transform: rotate(-45deg);
+}
