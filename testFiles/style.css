@@ -1,12 +1,17 @@
-#target {
+.targetWindow {
+  position: relative;
+  height: 600px;
+  width: 1200px;
+  overflow: hidden;
+  border: 2px dotted black;
+}
+
+.fillTarget {
+  position:absolute;
   height: auto;
-  width: 100vw;
+  width: 300vw;
   word-wrap: break-word;
   transform: rotate(45deg);
-}
-#targetTwo {
-  height: auto;
-  width: 100vw;
-  word-wrap: break-word;
-  transform: rotate(-45deg);
+  margin-left: -1200px;
+  margin-top: -300px;
 }
