@@ -48,6 +48,6 @@ const fillTargetWithContent = function(target, content, contentTagType, fillNum)
 
 window.onload = function(){
   fillTargetWithContent('targetOne', skillsText, 'span', 400)
-  fillTargetWithContent('targetTwo', frontendText, 'span', 400)
-  fillTargetWithContent('targetThree', backendText, 'span', 400)
+  // fillTargetWithContent('targetTwo', frontendText, 'span', 400)
+  // fillTargetWithContent('targetThree', backendText, 'span', 400)
 }
