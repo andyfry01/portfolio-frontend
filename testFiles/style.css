@@ -1,7 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: black;
+}
+
+.pageWrap {
+  position: relative;
+  background: black;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
 .targetWindow {
   position: relative;
   height: 600px;
   width: 1200px;
+  margin: 50px auto;
   overflow: hidden;
   border: 2px dotted black;
 }
@@ -14,4 +32,51 @@
   transform: rotate(45deg);
   margin-left: -1200px;
   margin-top: -300px;
+}
+
+
+.header {
+  position: relative;
+  margin: 0 auto;
+  height: 400px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nameContainer {
+  position: relative;
+  height: 100%;
+  width: auto;
+}
+
+.name {
+  position: relative;
+  color: white;
+  height: 40%;
+  width: auto;
+  font-size: 10em;
+}
+
+.first {
+  top: 30%;
+  right: 25%;
+  transform: rotate(-90deg);
+}
+
+.last {
+  top: -5%;
+  left: 25%;
+  transform: rotate(90deg);
+}
+
+.subheading {
+  position: relative;
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  margin: 0 auto;
+  height: auto;
+  width: auto;
 }

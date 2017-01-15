@@ -11,6 +11,9 @@ const backendText = "backend"
   @param fillNum {number} number of iterations for the loop that generates the word spans
 */
 
+// Should generate styles to pass into fillTargetWithContent ...?
+const genContentStyle = function(){}
+
 const fillTargetWithContent = function(target, content, contentTagType, fillNum){
 
   const colors = [
@@ -36,6 +39,7 @@ const fillTargetWithContent = function(target, content, contentTagType, fillNum)
   for (let i = 0; i < fillNum; i++) {
     let fillWord = document.createElement(contentTagType)
     fillWord.innerHTML = content + " "
+    fillWord.className = "ticker"
     fillWord.style.fontSize = randomFontSize(10, 1)
     fillWord.style.color = randomColor(colors)
     targetDiv.appendChild(fillWord)
