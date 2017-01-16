@@ -11,9 +11,6 @@ const backendText = "backend"
   @param fillNum {number} number of iterations for the loop that generates the word spans
 */
 
-// Should generate styles to pass into fillTargetWithContent ...?
-const genContentStyle = function(){}
-
 const fillTargetWithContent = function(target, content, contentTagType, fillNum){
 
   const colors = [
@@ -46,8 +43,16 @@ const fillTargetWithContent = function(target, content, contentTagType, fillNum)
   }
 }
 
+// Sets height of skillFrame to height of skillsDiv content
+const setSkillsFrameHeight = function(){
+  let skillFrames = document.getElementsByClassName('skillFrame')
+  let skillsDivHeight = skillFrames[0].children[0].clientHeight
+  skillFrames[0].style.height = skillsDivHeight + 'px'
+}
+
 window.onload = function(){
   fillTargetWithContent('targetOne', skillsText, 'span', 400)
+  setSkillsFrameHeight()
   // fillTargetWithContent('targetTwo', frontendText, 'span', 400)
   // fillTargetWithContent('targetThree', backendText, 'span', 400)
 }

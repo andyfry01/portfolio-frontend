@@ -16,9 +16,9 @@ body {
 }
 .skillsHeader {
   position: relative;
-  height: 100px;
+  height: 50px;
   width: 100%;
-  margin: 20px auto;
+  margin: 0 auto 20px auto;
 }
 .skillIconBox {
   position: relative;
@@ -34,12 +34,11 @@ body {
   width: 200px;
 }
 .icon {
-  font-size: 4em;
+  font-size: 3em;
   color: white;
 }
 .pageWrap {
   position: relative;
-  /*background: black;*/
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -51,7 +50,8 @@ body {
   min-height: 600px;
   width: 1200px;
   margin: 50px auto;
-  z-index: 4
+  z-index: 4;
+  padding: 2px;
 }
 
 .targetWindow {
@@ -60,18 +60,16 @@ body {
   width: 100%;
   overflow: hidden;
   z-index: 2;
-  left: 0
-  top: 0;
 }
 
 .skillsDiv {
   position: absolute;
-  min-height: 200px;
+  height: auto;
   width: 100%;
   margin: 0 auto;
   color: white;
   font-size: 2em;
-  z-index: 3
+  z-index: 3;
 }
 
 .fillTarget {
