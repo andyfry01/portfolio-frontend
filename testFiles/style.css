@@ -1,26 +1,25 @@
 * {
   box-sizing: border-box;
-  /*border: 1px solid white;*/
+  border: 1px solid white;
 }
 body {
   margin: 0;
-  background: black;
+  background: lightblue;
+}
+img {
+  position: relative;
+  height: 100%;
+  width:100%;
 }
 
-.skillRow {
+.row {
   position: relative;
   min-height: 100px;
   width: 100%;
   margin: 20px auto;
   z-index: 2;
 }
-.skillsHeader {
-  position: relative;
-  height: 50px;
-  width: 100%;
-  margin: 0 auto 20px auto;
-}
-.skillIconBox {
+.categoryRow {
   position: relative;
   height: auto;
   width: 100%;
@@ -28,14 +27,28 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
+}
+.skillsHeader {
+  position: relative;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  margin: 0 auto 20px auto;
 }
 .skill {
-  height: 200px;
-  width: 200px;
+  min-height: 150px;
+  min-width: 150px;
+}
+.skillName {
+  text-align: center;
 }
 .icon {
+  display: block !important;
   font-size: 3em;
   color: white;
+  text-align: center;
+  margin: 0 auto;
 }
 .pageWrap {
   position: relative;
