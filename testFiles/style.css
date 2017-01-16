@@ -49,7 +49,6 @@ body {
 .skillFrame {
   position: relative;
   min-height: 600px;
-  overflow: auto;
   width: 1200px;
   margin: 50px auto;
   z-index: 4
@@ -61,6 +60,18 @@ body {
   width: 100%;
   overflow: hidden;
   z-index: 2;
+  left: 0
+  top: 0;
+}
+
+.skillsDiv {
+  position: absolute;
+  min-height: 200px;
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+  font-size: 2em;
+  z-index: 3
 }
 
 .fillTarget {
@@ -74,14 +85,6 @@ body {
   z-index: 1;
 }
 
-.skillsDiv {
-  height: 200px;
-  width: 100%;
-  margin: 0 auto;
-  color: white;
-  font-size: 2em;
-  z-index: 3
-}
 
 .header {
   position: relative;
